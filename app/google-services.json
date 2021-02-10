@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321646188052",
+    "project_id": "mini-pet-world",
+    "storage_bucket": "mini-pet-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321646188052:android:a0b6254c755b9e76dc7901",
+        "android_client_info": {
+          "package_name": "com.example.minipetworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321646188052-58h654088q7t8l58b066mf5nra942nm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOnhVGbiEu8qRYkQI6W1hvdi626MLsmIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321646188052-58h654088q7t8l58b066mf5nra942nm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

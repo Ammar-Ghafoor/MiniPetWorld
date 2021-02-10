@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_MyMiniPetWorld"
+            android:icon="@drawable/logo1"
+            android:title="Mini Pet World" />
+        <item
+            android:id="@+id/nav_MyOrders"
+            android:icon="@drawable/myorder"
+            android:title="My orders" />
+        <item
+            android:id="@+id/nav_MyRewards"
+            android:icon="@drawable/reward"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/nav_MyCart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="My Cart" />
+    <item
+            android:id="@+id/nav_MyWishlist"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="My Wishlist" />
+    <item
+            android:id="@+id/nav_MyAccount"
+            android:icon="@drawable/person"
+            android:title="My Account" />
+    </group>
+
+    <item
+        android:id="@+id/nav_SignOut"
+        android:icon="@drawable/signout"
+        android:title="Sign Out" />
+</menu>

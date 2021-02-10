@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_details_container"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:elevation="3dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/product_details_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#C1BBBB"
+        android:padding="16dp"
+        android:text="Product Details"
+        android:textColor="#474242"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_details_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Lorem ipsum dolor sit amet,
+         consectetur adipiscing elit. Integer consequat
+         porttitor nisi in consectetur. Suspendisse et elit eu mauris bibendum vehicula. Vivamus vulputate elit quis ipsum aliquam, sit amet porttitor ipsum facilisis. Quisque blandit sit amet turpis nec sodales. Sed sodales nec mauris quis euismod. Sed sodales vel sem vel dignissim. Curabitur eget sollicitudin mi, id dignissim urna. Duis sit amet orci volutpat dui maximus laoreet a vitae massa. Integer et ligula id lorem pharetra pellentesque.
+         Suspendisse vehicula vel tortor at semper. Sed in leo elit."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_details_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>
